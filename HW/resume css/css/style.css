@@ -7,16 +7,23 @@ body{
 }
 
 h2{
-  color: pink;
+  color: firebrick;
   background-color: white;
   font-family: sans-serif;
 }
 
+h4{
+  color: orangered;
+}
+
 a:hover{
-  color: white;
+  color: grey;
   text-decoration: underline;
 }
 
+a{
+  text-decoration: none;
+}
 
 #name{
   color: orange;
@@ -27,12 +34,22 @@ a:hover{
   color: firebrick;
 }
 
-#information{
-  color: pink;
+#email{
+  color: orange;
 }
 
+#phone{
+  color: maroon;
+}
 
+#interests{
+  font-family: cursive;
+}
 
 .links{
-  color: purple;
+  color: red;
+}
+
+.work{
+  color: coral;
 }
