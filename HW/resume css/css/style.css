@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+
+body{
+  background-color: lemonchiffon;
+  font-family: 'Bitter', serif;
+}
+
+h2{
+  color: pink;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+#name{
+  color: orange;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#address{
+  color: firebrick;
+}
+
+#information{
+  color: pink;
+}
+
+
+
+.links{
+  color: purple;
+}
