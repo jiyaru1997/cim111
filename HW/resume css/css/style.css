@@ -25,6 +25,10 @@ a{
   text-decoration: none;
 }
 
+table {
+  border: 1px solid red;
+}
+
 #name{
   color: orange;
   font-family: 'Shadows Into Light', cursive;
