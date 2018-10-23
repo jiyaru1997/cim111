@@ -1,0 +1,37 @@
+@import "desktop.css";
+
+header, footer{
+  background-color: salmon;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  background-color: salmon;
+}
+
+.cols{
+  width: auto;
+  height: 400px;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.footer{
+  width: auto;
+  height: 120px;
+  background-color: cornsilk;
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}

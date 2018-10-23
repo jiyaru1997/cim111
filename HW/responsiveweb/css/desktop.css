@@ -1,0 +1,63 @@
+header, footer{
+  background-color: salmon;
+  width: 80%;
+  height: 130px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  background-color: gold;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.cols{
+  width: 49%;
+  height: 400px;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.cols2{
+  width: 99%;
+  height: auto;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.footer
+{
+  width: 32.3%;
+  height: 120px;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
