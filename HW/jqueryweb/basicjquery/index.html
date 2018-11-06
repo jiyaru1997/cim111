@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>HOW TO MAKE PORTUGUESE EGG TARTS</title>
+
+    <style>
+    .box{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+
+    .cols{
+      width: 30%;
+      height: 250px;
+      background-color: cornsilk;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 25px;
+      margin-bottom: 5px;
+      vertical-align: top;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+    <h1 id="textChange">HOW TO MAKE PORTUGUESE EGG TARTS</h1>
+    </header>
+
+    <main>
+      <div class="cols">
+        <h2 id="ingredients"> List of Ingredients: </h2>
+        <div id="note1"></div>
+        <ul>
+          <li>2 sheets of Frozen Puff Pastry</li>
+          <li>260 g of Whole Milk</li>
+          <li>60 g of Heavy Cream</li>
+          <li>60 g of Sugar</li>
+          <li>2 egg yolk</li>
+          <li>1 tbsp of corn starch</li>
+          <li>1/2 tsp of vanilla extract</li>
+        </ul>
+      </div>
+
+      <div class="cols">
+        <h2 id="tools"> List of Tools: </h2>
+        <div id="note2"></div>
+        <ul>
+          <li>12 ct. cupcake/muffin pan</li>
+          <li>Weighing device</li>
+          <li>Whisk</li>
+          <li>Measuring spoons</li>
+          <li>Small cooking pot</li>
+          <li>Cooking/baking oil spray</li>
+          <li>Sandwich knife</li>
+          <li>Water cup with round rigid edge</li>
+        </ul>
+</div>
+
+    <h2>Click to view images</h2>
+
+    <h2>Step 1:</h2>
+    <img id="image1" src="https://photos.google.com/album/AF1QipNtqeJehjiVhIcTuwEcTm0CeOiLugjYcAxBN9Bv/photo/AF1QipM9lXATdE4w4L3G5_v_5fe7I4d6FAaA_2Itg9kr" width="100">
+    <p>prepare the ingredients...</p>
+
+    <h2>Step 2:</h2>
+    <img id="image2" src="https://photos.google.com/album/AF1QipNtqeJehjiVhIcTuwEcTm0CeOiLugjYcAxBN9Bv/photo/AF1QipN38HeioC2uKQELeHJk4rvi7Xtk6F2j0dRQ9dbi" width="100">
+    <p>Prepare the egg tart skin...</p>
+
+    <h2>Step 3:</h2>
+    <img id="image3" src="https://c8.staticflickr.com/4/3009/3053282277_c439242c94_o.jpg" width="100">
+    <p>Mix the ingredients...</p>
+
+    <h2>Step 4:</h2>
+    <img id="image4" src="https://farm7.staticflickr.com/7444/11892550395_1d58585a3c_o.jpg" width="100">
+    <p>Pour the liquid in to the eggtart skin...</p>
+
+    <h2>Step 1:</h2>
+    <img id="image5" src="https://c8.staticflickr.com/4/3009/3053282277_c439242c94_o.jpg" width="100">
+    <p>Put it in the oven...</p>
+
+    <div id="imageRecepticle"></div>
+
+    <ul>
+      <li id="show">Show</li>
+      <li id="hide">Hide</li>
+      <li id="toggle">Toggle</li>
+    </ul>
+
+    <div class="box"></div>
+
+  </main>
+      <footer></footer>
+
+    <!-- Local jquery script -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Remote version -->
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        // All jquery code should be placed below
+
+        $(".box").hide();
+
+        $("body").css("background-color", "lightyellow");
+        $("h1").css("color", "white");
+        $("h1").css("font-size", "40px");
+        $("#textChange").css("background-color", "gold");
+
+        $("#textChange").click(function(){
+
+          $("body").css("background-color", "orange");
+
+
+        });// End of textChange click
+
+        $("#ingredients").mouseenter(function(){
+          $("#note1").html("<em> This information is important </em>");
+          $("#ingredients").css("background-color", "gold");
+        });
+
+        $("#ingredients").mouseleave(function(){
+          $("#note1").html("");
+          $("#ingredients").css("background-color", "transparent");
+        });
+
+        $("#tools").mouseenter(function(){
+          $("#note2").html("<em> This information is important </em>");
+          $("#tools").css("background-color", "gold");
+        });
+
+        $("#tools").mouseleave(function(){
+          $("#note2").html("");
+          $("#tools").css("background-color", "transparent");
+        });
+
+
+
+        $("#image1").click(function(){
+          $("#imageRecepticle").html('<img src="https://photos.google.com/album/AF1QipNtqeJehjiVhIcTuwEcTm0CeOiLugjYcAxBN9Bv/photo/AF1QipM9lXATdE4w4L3G5_v_5fe7I4d6FAaA_2Itg9kr" width="300">');
+        });
+
+        $("#image2").click(function(){
+        $("#imageRecepticle").html('<img src="https://photos.google.com/album/AF1QipNtqeJehjiVhIcTuwEcTm0CeOiLugjYcAxBN9Bv/photo/AF1QipN38HeioC2uKQELeHJk4rvi7Xtk6F2j0dRQ9dbi" width="300">');
+        });
+
+        $("#image3").click(function(){
+          $("#imageRecepticle").html('<img src="https://c8.staticflickr.com/4/3009/3053282277_c439242c94_o.jpg" width="300">');
+        });
+
+        $("#image4").click(function(){
+        $("#imageRecepticle").html('<img src="https://farm7.staticflickr.com/7444/11892550395_1d58585a3c_o.jpg" width="300">');
+        });
+
+        $("#image5").click(function(){
+        $("#imageRecepticle").html('<img src="https://farm7.staticflickr.com/7444/11892550395_1d58585a3c_o.jpg" width="300">');
+        });
+
+        $("#hide").click(function(){
+          $(".box").hide();
+        });
+
+        $("#show").click(function(){
+          $(".box").show();
+        });
+
+        $("#toggle").click(function(){
+          $(".box").toggle(1000);
+        });
+
+
+
+
+
+
+      });// End of document ready
+
+
+    </script>
+
+
+
+
+  </body>
+
+</html>
