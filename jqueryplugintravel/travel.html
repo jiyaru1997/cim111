@@ -1,0 +1,195 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>jquery plugins</title>
+    <link href="css/lightbox.min.css" rel="stylesheet">
+
+    <style>
+
+      header{
+        background-color: CornflowerBlue;
+        width: 80%;
+        height: 150px;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+      }
+
+      footer{
+        background-color: CornflowerBlue;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      main{
+        background-color: lightblue;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .center {
+          display: block;
+          margin-top: 35px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%;
+      }
+
+      .char1{
+        color: red;
+      }
+      .char2{
+        color: blue;
+      }
+      .char3{
+        color: green;
+      }
+      .char4{
+        color: pink;
+      }
+      .char5{
+        color: purple;
+      }
+      .line2{
+        color: orange;
+        font-family: sans-serif;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <p><font size="8" color="white">TURKEY</font></p>
+      <p><font color="white">Turkey is one of the world’s most popular tourism destinations. The rectangular shaped country is surrounded on three sides by three different seas. Its shores are laced with beaches, bays, coves, ports, islands and peninsulas. Turkey is also blessed with majestic mountains and valleys, lakes, rivers, waterfalls and grottoes perfect for winter and summer tourism and sports of all kinds.</font></p>
+    </header>
+
+    <main>
+
+    <h2 id="location1"><a href="http://ayasofyamuzesi.gov.tr/en">Hagia Sophia</a></h2>
+    <div id="note1"></div>
+
+    <a data-lightbox="roadtrip" href="https://c6.staticflickr.com/4/3473/3904811506_ca9115e370_o.jpg"><img src="https://c6.staticflickr.com/4/3473/3904811506_ca9115e370_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip" href="https://farm6.staticflickr.com/8194/8395709547_b83704de31_o.jpg"><img src="https://farm6.staticflickr.com/8194/8395709547_b83704de31_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip" href="https://c7.staticflickr.com/8/7024/6745869403_2462829857_o.jpg"><img src="https://c7.staticflickr.com/8/7024/6745869403_2462829857_o.jpg" width="300" height="200"></a>
+
+
+    <h2 id="location2"><a href="http://www.pamukkale.net/">Pamukkale</a></h2>
+    <div id="note2"></div>
+    <a data-lightbox="roadtrip2" href="https://farm5.staticflickr.com/5027/5864262845_f69b5f4ee1_o.jpg"><img src="https://farm5.staticflickr.com/5027/5864262845_f69b5f4ee1_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip2" href="https://farm7.staticflickr.com/5495/14365783258_32a75ed081_o.jpg"><img src="https://farm7.staticflickr.com/5495/14365783258_32a75ed081_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip2" href="https://farm5.staticflickr.com/6131/6012694438_1186517e3a_o.jpg"><img src="https://farm5.staticflickr.com/6131/6012694438_1186517e3a_o.jpg" width="300" height="200"></a>
+
+
+    <h2 id="location3"><a href="http://www.bluemosque.co/">Sultan Ahmed Mosque</a></h2>
+      <div id="note3"></div>
+    <a data-lightbox="roadtrip3" href="https://c4.staticflickr.com/5/4058/4399467738_f9f62a0f2a_o.jpg"><img src="https://c4.staticflickr.com/5/4058/4399467738_f9f62a0f2a_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip3" href="https://c2.staticflickr.com/6/5191/5812251405_53d0c2266c_b.jpg"><img src="https://c2.staticflickr.com/6/5191/5812251405_53d0c2266c_b.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip3" href="https://farm1.staticflickr.com/8085/8459612400_51fc273d87_o.jpg"><img src="https://farm1.staticflickr.com/8085/8459612400_51fc273d87_o.jpg" width="300" height="200"></a>
+
+
+    <h2 id="location4"><a href="https://www.grandbazaarshopping.com/">Grand Bazaar</a></h2>
+      <div id="note4"></div>
+    <a data-lightbox="roadtrip4" href="https://c2.staticflickr.com/9/8237/8363502184_a3f5c1ce81_o.jpg"><img src="https://c2.staticflickr.com/9/8237/8363502184_a3f5c1ce81_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip4" href="https://farm2.staticflickr.com/8195/8396053038_b3a21536c8_o.jpg"><img src="https://farm2.staticflickr.com/8195/8396053038_b3a21536c8_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip4" href="https://c5.staticflickr.com/4/3194/3319939433_b7c8b54f9c_o.jpg"><img src="https://c5.staticflickr.com/4/3194/3319939433_b7c8b54f9c_o.jpg" width="300" height="200"></a>
+
+    <h2 id="location5"><a href="https://www.ephesus.us/">Ephesus</a></h2>
+      <div id="note5"></div>
+    <a data-lightbox="roadtrip5" href="https://farm2.staticflickr.com/3493/4069481541_95fe7290a3_o.jpg"><img src="https://farm2.staticflickr.com/3493/4069481541_95fe7290a3_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip5" href="https://c5.staticflickr.com/8/7004/6766491097_c997a15195_o.jpg"><img src="https://c5.staticflickr.com/8/7004/6766491097_c997a15195_o.jpg" width="300" height="200"></a>
+
+    <a data-lightbox="roadtrip5" href="https://farm4.staticflickr.com/7233/7098764039_4c1bb006fc_o.jpg"><img src="https://farm4.staticflickr.com/7233/7098764039_4c1bb006fc_o.jpg" width="300" height="200"></a>
+</main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#letters").lettering();
+        $("#words").lettering("words");
+        $("#sentence").lettering("lines");
+      });
+    </script>
+
+
+      <!-- Local jquery script -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Remote version -->
+      <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          // All jquery code should be placed below
+          $(".final").hide();
+
+          $("body").css("background-color", "white");
+          $("h2").css("color", "white");
+          $("h2").css("font-size", "28px");
+          $("#textChange").css("background-color", "white");
+
+          $("#textChange").click(function(){
+
+            $("body").css("background-color", "white");
+          });// End of textChange click
+
+
+          $("#location1").mouseenter(function(){
+            $("#note1").html("<em>Hagia Sophia is the former Greek Orthodox Christian patriarchal cathedral, later an Ottoman imperial mosque and now a museum in Istanbul, Turkey.</em>");
+            $("#location1").css("background-color", "white");
+          });
+
+          $("#location2").mouseenter(function(){
+            $("#note2").html("<em>Pamukkale is a town in western Turkey known for the mineral-rich thermal waters flowing down white travertine terraces on a nearby hillside.</em>");
+            $("#location2").css("background-color", "white");
+          });
+
+          $("#location3").mouseenter(function(){
+            $("#note3").html("<em>The Sultan Ahmet Mosque is a historic mosque located in Istanbul, Turkey. A popular tourist site, the Sultan Ahmed Mosque continues to function as a mosque today; men still kneel in prayer on the mosque's lush red carpet after the call to prayer.</em>");
+            $("#location3").css("background-color", "white");
+          });
+
+          $("#location4").mouseenter(function(){
+            $("#note4").html("<em>The Grand Bazaar in Istanbul is one of the largest and oldest covered markets in the world, with 61 covered streets and over 4,000 shops which attract between 250,000 and 400,000 visitors daily.</em>");
+            $("#location4").css("background-color", "white");
+          });
+
+          $("#location5").mouseenter(function(){
+            $("#note5").html("<em>Ephesus was an ancient Greek city on the coast of Ionia, three kilometres southwest of present-day Selçuk in İzmir Province, Turkey. It was built in the 10th century BC on the site of the former Arzawan capital by Attic and Ionian Greek colonists. </em>");
+            $("#location5").css("background-color", "white");
+          });
+
+
+          $("#toggle").click(function(){
+            $(".final").toggle();
+          });
+
+        });// End of document ready
+    </script>
+
+    <footer>
+      <h1 id="letters">Welcome to Turkey</h1>
+      <div class="final"><img id="flag" src="https://c1.staticflickr.com/8/7234/7378404834_7b8a4109ce_o.jpg" width="300"></div>
+      <h5 id="toggle">Click here to see the Turkey flag!</h5>
+
+    </footer>
+  </body>
+
+</html>
