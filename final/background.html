@@ -64,14 +64,44 @@
             <p>Designed posters for college fairs and other events for the high school. Worked as an intern in the international student department, mainly editing videos and designing posters to recruit international students. <a class="links" href="http://www.aacsonline.org/">Click here to visit the website</a> </p>
           </div>
 
-          <div class="skills">
+          <div class="skills" id="note">
               <h1>My skills</h1>
-              <h4>HTML</h4>
-              <h4>CSS</h4>
-              <h4>Jquery</h4>
-              <h4>Photoshop</h4>
-              <h4>InDesign</h4>
-              <h4>Costume Design</h4>
+              <div id="skillnote"></div>
+
+              <br>
+
+              <h5 id="toggle">Click here to see what I can do!</h5>
+
+              <div class="list">
+                <div class="skillgrid">
+                  <h4>Languages</h4>
+                  English
+                  <br>
+                  Chinese
+                </div>
+                <div class="skillgrid">
+                  <h4>Computer Skills</h4>
+                  Photoshop
+                  <br>
+                  InDesign
+                  <br>
+                  HTML
+                  <br>
+                  CSS
+                  <br>
+                  Jquery
+                </div>
+                <div class="skillgrid">
+                  <h4>Other Skills</h4>
+                  Custome Design
+                  <br>
+                  Photography
+                  <br>
+                  Video editing
+                </div>
+            </div>
+
+
             </div>
 
       </div>
@@ -87,6 +117,7 @@
       <script>
         $(document).ready(function(){
           // All jquery code should be placed below
+            $(".list").hide();
             $('a').click(function(){
               var selected = $(this);
               $('a').removeClass('active');
@@ -94,6 +125,15 @@
             });
 
         });// End of textChange click
+
+        $("#note").mouseenter(function(){
+          $("#skillnote").html("<h3>I do all kinds of neat stuff.</h3>");
+          $("#location1").css("background-color", "white");
+        });
+
+        $("#toggle").click(function(){
+          $(".list").toggle();
+        });
     </script>
 
   </body>
