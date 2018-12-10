@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Yaru Ji</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 599px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 599px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+      <div>
+        <img class="background2" src="https://www.stcqa.com/wp-content/uploads/2018/03/Website-Design-Background.jpg" alt="bg">
+
+
+      <div class="nav">
+        <a class="a active" href="home.html">Home</a>
+        <a class="b" href="aboutme.html">About Me</a>
+        <a class="c" href="background.html">Background</a>
+        <a class="d" href="portfolio.html">Portfolio</a>
+        <a class="e" href="contact.html">Contact</a>
+      </div>
+
+
+      <div class="content">
+
+        <div class="contact">
+            <h1>Contact me</h1>
+            <br>
+            <h4><a href="#" class="fa fa-google"></a>jiyaru1997@gmail.com </h4>
+            <h4><a href="#" class="fa fa-facebook"></a>Yaru Ji </h4>
+            <h4><a href="#" class="fa fa-instagram"></a>yaru.ji</h4>
+            <h4><a href="#" class="fa fa-skype"></a>yaru.ji</h4>
+          </div>
+
+
+
+
+
+      <!-- Local jquery script -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Remote version -->
+      <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          // All jquery code should be placed below
+            $('a').click(function(){
+              var selected = $(this);
+              $('a').removeClass('active');
+              $(selected).addClass('active');
+            });
+
+        });// End of textChange click
+    </script>
+
+  </body>
+
+</html>

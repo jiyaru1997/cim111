@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Yaru Ji</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 599px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 599px)">
+  </head>
+
+  <body>
+
+      <div style="position: relative; left: 0; top: 0;">
+        <img class="background" src="https://www.stcqa.com/wp-content/uploads/2018/03/Website-Design-Background.jpg" alt="bg">
+        <img class="me" src="images/me.png" alt="me">
+
+
+        <div class="nav">
+          <a class="a active" href="home.html">Home</a>
+          <a class="b" href="aboutme.html">About Me</a>
+          <a class="c" href="background.html">Background</a>
+          <a class="d" href="portfolio.html">Portfolio</a>
+          <a class="e" href="contact.html">Contact</a>
+        </div>
+
+
+
+
+      <div class="content">
+
+        <div class="home">
+            <h1> I am Yaru Ji</h1>
+            <h3> Graphic Designer</h3>
+        </div>
+
+
+      </div>
+
+      </div>
+
+
+
+      <!-- Local jquery script -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Remote version -->
+      <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          // All jquery code should be placed below
+            $('a').click(function(){
+              var selected = $(this);
+              $('a').removeClass('active');
+              $(selected).addClass('active');
+            });
+
+        });// End of textChange click
+    </script>
+
+  </body>
+
+</html>

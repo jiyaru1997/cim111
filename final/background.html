@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Yaru Ji</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 599px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 599px)">
+  </head>
+
+  <body>
+
+      <div>
+        <img class="background2" src="https://lh3.googleusercontent.com/9NnbqUXsh1cguGqlcSGGMdqdgbRFTONjv8UR9D7OMQ3r-Ymes07IjxU6AmilKh-nXlLhVsb8reqWFvKgSPm4cDfdPBaotyjgST9lK-fq_y3AvCJPDeeunt0tr4meKjiH-rD61gPzcmnJY2zd8k2KcOalNPALteNCwkAOphlUJOQ0SallGUollnDGSpCTFbQjGJ74_PxScihi4jKuuZP1ObZx4yAMZELstoDg45AFWp4ZV3qkjHbuPv2-YHE3szvrAlYwApr2SUhYX_rvcCXb9280ywwdD-ubpShosAhz8wZdcC9207ENTS3rVhi2qFCCTmZhPiDb9VuMV1Nx0KTIv2WzElvvP6SHMFVOifX1bVFlKCcSiNZbPlvpY5og-m1mAIb5f3bgCs40Czuoz3P743E8zf90hV8zsB_gRVXeCkpxilWYb4Ij3pmW5CWSvbAOHyTwdn6uEFR6TQeGm1Rvs66D3XxTS4Jc7tLQ-7lM3vSAe-hNFeGj0TpltH5bKAhQL_i0IfmSM7yb94EUTrS2IZu5rwLElpYZqVG2Uppe2rcrOirwt0JkZ7UI7fEGrjGtiCyUVUx6GbAnbFBNUge4RxpTJJP0hN2O5ZSheaou8xDwDyN1BU3SoFwQfu3rBe7bFtQ5pX4u7lwHbynrC5syNf3x=w433-h270-no" alt="bg">
+
+
+      <div class="nav">
+        <a class="a active" href="home.html">Home</a>
+        <a class="b" href="aboutme.html">About Me</a>
+        <a class="c" href="background.html">Background</a>
+        <a class="d" href="portfolio.html">Portfolio</a>
+        <a class="e" href="contact.html">Contact</a>
+      </div>
+
+
+      <div class="content">
+
+        <div class="education">
+            <h1>Education</h1>
+            <table border="1">
+              <tr>
+                <th>Year</th>
+                <th>School</th>
+                <th>Degree</th>
+              </tr>
+
+              <tr>
+                <td>2018-Present</td>
+                <td>University of Miami</td>
+                <td>Bachelor of Arts in Communications (expected Spring 2020)</td>
+              </tr>
+
+              <tr>
+                <td>2016-2018</td>
+                <td>Anne Arundel Community College</td>
+                <td>Associate Degree in Business</td>
+              </tr>
+
+              <tr>
+                <td>2013-2016</td>
+                <td>Annapolis Area Christian School</td>
+                <td>High School Diploma</td>
+              </tr>
+            </table>
+        </div>
+
+        <div class="work">
+            <h1>Work Experience</h1>
+            <h4> New Song Company </h4>
+            <p>Worked as an intern in a professional education and psychological counseling company. Designed digital posters for summer camps and worked in the advertising department to promote the company in China. <a class="links" href="http://www.newsongus.com/">Click here to visit the website</a> </p>
+            <br>
+            <h4> Annapolis Area Christian School </h4>
+            <p>Designed posters for college fairs and other events for the high school. Worked as an intern in the international student department, mainly editing videos and designing posters to recruit international students. <a class="links" href="http://www.aacsonline.org/">Click here to visit the website</a> </p>
+          </div>
+
+          <div class="skills">
+              <h1>My skills</h1>
+              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <h4>Jquery</h4>
+              <h4>Photoshop</h4>
+              <h4>InDesign</h4>
+              <h4>Costume Design</h4>
+            </div>
+
+      </div>
+
+
+
+      <!-- Local jquery script -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Remote version -->
+      <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          // All jquery code should be placed below
+            $('a').click(function(){
+              var selected = $(this);
+              $('a').removeClass('active');
+              $(selected).addClass('active');
+            });
+
+        });// End of textChange click
+    </script>
+
+  </body>
+
+</html>

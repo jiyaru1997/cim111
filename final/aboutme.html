@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Yaru Ji</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 599px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 599px)">
+  </head>
+
+  <body>
+
+      <div>
+        <img class="background2" src="https://lh3.googleusercontent.com/HcohAIrF7YwjWFngpLaRhpTNO1NxVHPWWhbANwgqK3M-Ry2GWDgStuiBokUYR6DDnuiiaPnl2k6wuPpsjh0JXOcdIDh6Cznne8o0jkZdahZAZhq7r468SdVJj6dtagNAes_J0NtsG5AnxQkMAdg1U-OclQqGZLMfyfugm9HOtqnNlP_x1ULyMNLAX56Acbg74yjEsvODpYj5qL6K6PrVdgcN42mB9J9c74xCE4okPLl71JxMsUpI-V5w8F8IQlOB-TLGGdyOC5s2iWfY4le9unglQgoKEDWFHLfBZ77hoCtPbv9-i181trdEXaOeoS6rS02bzJ0fccnhNsLkhInhNNPSnyX2KjK-KQogtNDaKlBYENXV5s0VCBl3CaIj7GkQK6LLTOHRfHBzikqp3PS9RtbbB8SsGSFaLqaULajkMTAmuMkXfiIvSNx9r5hf9iCqE0NPDwelcaA2FtfuZiktmhrV6pfNNKcW6DP_f0-Nig8GPoQaUejoZibgC1rEHhLBvaBz2bOcP_93Iv0lieVWgmOqv16kh72nxVbup8jTntpPQsDBKn59vxqIlowmOYIM0wEP6XLxocrWLceboJM1wK-aLRwIE3wvb9EUW3ptzPkXpIB2-l0CvqGwoGx-o0aXOnWc9vS44vAunaG2jM-84hfp=w1802-h1084-no" alt="bg">
+
+
+      <div class="nav">
+        <a class="a active" href="home.html">Home</a>
+        <a class="b" href="aboutme.html">About Me</a>
+        <a class="c" href="background.html">Background</a>
+        <a class="d" href="portfolio.html">Portfolio</a>
+        <a class="e" href="contact.html">Contact</a>
+      </div>
+
+
+      <div class="content">
+
+        <div class="tag">
+            <h1> I am Yaru Ji</h1>
+        </div>
+
+        <div class="about">
+            <p>I am Yaru Ji. I am currently an Advertising major at the University of Miami. I speak Chinese and English and have a deep understanding of both Eastern and Western cultures. I am passionate about advertising and graphic design and hope to make a career in this field. I have excellent communication skills and strong decision-making capabilities.</p>
+        </div>
+
+      </div>
+
+
+
+      <!-- Local jquery script -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <!-- Remote version -->
+      <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+          // All jquery code should be placed below
+            $('a').click(function(){
+              var selected = $(this);
+              $('a').removeClass('active');
+              $(selected).addClass('active');
+            });
+
+        });// End of textChange click
+    </script>
+
+  </body>
+
+</html>

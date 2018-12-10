@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.background{
+  width: 100%;
+  height: 100%
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+}
+
+.background2{
+  width: 100%;
+  height: 100%
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  opacity: 0.5;
+}
+
+.background3{
+  width: 100%;
+  height: 1100px;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.me{
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  width: 320px;
+}
+
+
+
+/*header{
+  width: auto;
+  height: 80px;
+  margin: 0 auto;
+  text-align: right;
+  align-content: center;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+*/
+
+.cols{
+  width: 49.5%;
+  height: 350px;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  font-style: italic;
+  text-align: center;
+  text-decoration-color: white;
+}
+
+.cols2{
+  width: 49%;
+  height: auto;
+  background-color: cornsilk;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.nav{
+  width: 350px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.nav a{
+  text-decoration: none;
+  font-size: 28px;
+  font-family: verdana;
+  font-weight: bold;
+  height: 90px;
+  margin: 5px 1;
+  float: left;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  line-height: 90px;
+  text-align: center;
+  transition: 300ms;
+}
+
+a.active{
+  background-color: white;
+  color: black;
+}
+
+.nav a:hover{
+  background-color: white;
+  color: black;
+  width: 85%;
+}
+
+.a{
+  width: 85%;
+}
+
+.b{
+  width: 65%;
+}
+
+.c{
+  width: 65%;
+}
+
+.d{
+  width: 65%;
+}
+
+.e{
+  width: 65%;
+}
+
+.content{
+  position: absolute;
+  width: 930px;
+  min-height: 500px;
+  height: auto;
+  right: 0;
+  top: 10%;
+}
+
+.home{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  font-family: verdana;
+}
+
+.home h1{
+  text-transform: uppercase;
+  font-size: 95px;
+  padding-right: 90px;
+  border-bottom: 1px solid white;
+}
+
+.home h3{
+  font-size: 28px;
+  padding: 5px 0;
+  opacity: 0.6;
+}
+
+.about{
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  color: black;
+  font-family: century gothic;
+  padding: 0 60px;
+}
+
+.about p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.tag{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: black;
+  font-family: verdana;
+}
+
+.tag h1{
+  text-transform: uppercase;
+  font-size: 95px;
+  padding-right: 90px;
+  border-bottom: 1px solid black;
+}
+
+.education{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  color: black;
+  font-family: century gothic;
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+.education h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+.work{
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  color: black;
+  font-family: century gothic;
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+.work h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+.skills{
+  position: absolute;
+  left: 20px;
+  top: 450px;
+  color: black;
+  font-family: century gothic;
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+.skills h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.contact{
+  position: absolute;
+  right: 300px;
+  top: 130px;
+  color: black;
+  font-family: century gothic;
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+.contact h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
