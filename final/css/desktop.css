@@ -47,30 +47,6 @@ html, body{
   width: 320px;
 }
 
-.cols{
-  width: 49.5%;
-  height: 350px;
-  background-color: cornsilk;
-  display: inline-block;
-  vertical-align: top;
-  font-style: italic;
-  text-align: center;
-  text-decoration-color: white;
-}
-
-.cols2{
-  width: 49%;
-  height: auto;
-  background-color: cornsilk;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  font-style: italic;
-  text-align: center;
-}
-
 .nav{
   width: 350px;
   height: auto;
